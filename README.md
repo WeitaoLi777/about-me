@@ -27,6 +27,7 @@ It must contain an ordered list of links to pages for each assignment in this cl
 - User Experience Assignment (link to `user_experience_design.html`)
 - Responsive Design Assignment (link to `index.html`)
 - Bootstrap Assignment (link to `professional_site.html`)
+- Photoshop Assignment (link to `photoshop.html`)
 - Animated GIF Assignment (link to `animated_gif.html`)
 - Digital Video Assignment (link to `video.html`)
 

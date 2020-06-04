@@ -41,11 +41,10 @@ class Tests:
 
   def test_ol_exists(self, web_driver, site_settings):
     """
-    Check that the order list exists
+    Check that the order list items exists
     """
-    target_element = "ol" # check the ol tag
-    elem = web_driver.find_element_by_tag_name(target_element) # find the h1 tag
-    assert elem
+    elems = web_driver.find_elements_by_css_selector("ol li") # find the h1 tag
+    assert len(elems) >= 2
 
   def test_link_href_exists(self, web_driver):
     """
