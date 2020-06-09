@@ -60,8 +60,10 @@ class Tests:
     """
     target_urls = ['index.html', 'about_me.html', 'topic_of_interest.html', 'user_experience_design.html', 'professional_site.html', 'animated_gif.html', 'video.html']
     for url in target_urls:
-      elem = web_driver.find_element_by_xpath('//a[@href="' + url + '"]')
-      assert elem # check that it exists
+      # check for hrefs with either single or double quotes
+      elem_option1 = web_driver.find_element_by_xpath('//a[@href="' + url + '"]')
+      elem_option2 = web_driver.find_element_by_xpath("//a[@href='" + url + "']")
+      assert elem_option1 or elem_option2 # check that it exists
 
   def test_link_text_exists(self, web_driver):
     """

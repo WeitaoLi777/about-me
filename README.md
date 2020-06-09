@@ -18,7 +18,7 @@ Create a home page for your personal web site and name it `index.html` - it will
 
 This page must still meet the requirements of the UNIX Assignment, in addition to the following...
 
-It must contain an ordered list of links to pages for each assignment in this class. You do not yet have to create pages for each assignment, but the links should be present on this home page. The names and file names of the web pages that you must link from your home page are, in order:
+It must contain an **ordered list** of links to pages for each assignment in this class. You do not yet have to create pages for each assignment, but the links should be present on this home page. The names and file names of the web pages that you must link from your home page are, in order:
 
 - UNIX Assignment (link to `index.html`)
 - HTML Assignment (link to `about_me.html`)
@@ -52,7 +52,7 @@ You must include the name of each section, exactly as written in the list above,
 You must include at least two images on this page using the `<img>` element. One of these images must be a photograph. You must be licensed to use these images and give credit to the image creator, if that is required by the copyright license the image is pulished under.
 
 **Links**
-This page must include a link to the next page, named `more_about_me.html`, as well as a link back to your site's home page, `index.html`. These must both be relative links, not absolute links.
+This page must include a link to the next page, named `more_about_me.html`, as well as a link back to your site's home page, `index.html`. These must both be **relative links**, not absolute links.
 
 At least one additional link should link to a page on a different web site. This must be an absolute link.
 
