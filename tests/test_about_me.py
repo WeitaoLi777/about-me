@@ -59,7 +59,8 @@ class Tests:
         found_background = True
       elif heading == "my interests":
         found_interests = True
-      assert found_background and found_interests
+    assert found_background
+    assert found_interests
 
   def test_two_images(self, driver, settings):
     """
